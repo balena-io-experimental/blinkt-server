@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!doctype html>
+
+<html ng-app="blinky">
+<head>
+    <title>LED Handler</title>
+
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/public/js/controllers.js"></script>
+    <style>
+        .checkboxinsameline {
+            display:inline;
+        }
+    </style>
+</head>
+
+<body ng-controller="mainController">
+    Click on the checkboxes to enable or disable an LED:
+    <div class="container">
+        <div id="leds" class="row">
+            <div class="checkboxinsameline scale" ng-repeat="led in leds">
+                <input type="checkbox" ng-checked="{{led.value}}" ng-click="enableLight(led.id)" />
+            </div>
+        </div>
+    </div>
+
+    Here are some presets:
+    <div class="container">
+        <div id="presets" class="row">
+            <div class="button" ng-repeat="preset in presets">
+                <button type="button" ng-click="runPreset(preset.name)">{{preset.name}}</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "blinkt-server",
+  "version": "1.0.0",
+  "description": "Blinkt LED server",
+  "main": "led-server.js",
+  "scripts": {
+    "start": "node led-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resin-io-projects/blinkt-server.git"
+  },
+  "keywords": [
+    "resin.io",
+    "webserver",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Heds Simons <heds@resin.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resin-io-projects/blinkt-server/issues"
+  },
+  "dependencies": {
+    "express": "*",
+    "angular": "*",
+    "body-parser": "*",
+    "node-blinkt": "*"
+  }
+}
