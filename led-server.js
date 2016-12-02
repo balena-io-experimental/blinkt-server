@@ -175,7 +175,7 @@ app.post('/presets/:name', function (req, res) {
 });
 
 // Start server on port 80
-const server = app.listen(8080, function () {
+const server = app.listen(80, function () {
 
     var port = server.address().port;
     console.log('LED server listening');
