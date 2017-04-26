@@ -1,5 +1,5 @@
 # Note the node:slim image doesn't have node-gyp, so we use full master
-FROM resin/raspberrypi3-node
+FROM resin/%%RESIN_MACHINE_NAME%%-node
 
 # Defines our working directory in container
 WORKDIR /usr/src/app
