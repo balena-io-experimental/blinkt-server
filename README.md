@@ -1,6 +1,6 @@
 ## Simple Blinkt Server for Raspberry Pi
 
-Simple project for showing a tiny web-server with bad UI controlling an RPi3 with a Blinkt interface.
+Simple project for showing a tiny web-server with bad UI controlling an RPi with a Blinkt interface.
 
 
 To get this project up and running, you will need to signup for a resin.io account [here][signup-page] and set up a device, have a look at our [Getting Started tutorial][gettingStarted-link]. Once you are set up with resin.io, you will need to clone this repo locally:
