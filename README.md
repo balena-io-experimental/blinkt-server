@@ -1,4 +1,4 @@
-## Simple Blinkt Server for Raspberry Pi3
+## Simple Blinkt Server for Raspberry Pi
 
 Simple project for showing a tiny web-server with bad UI controlling an RPi3 with a Blinkt interface.
 
